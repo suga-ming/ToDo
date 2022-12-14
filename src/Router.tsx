@@ -5,7 +5,7 @@ import Coins from "./routes/Coins";
 function Router() {
   return (
     <div>
-      <BrowserRouter basename="nomad-react">
+      <BrowserRouter basename="ToDo">
         <Routes>
           <Route path="/" element={<Coins />} />
           <Route path="/:coinId/*" element={<Coin />} />
